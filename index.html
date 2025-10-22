@@ -3,637 +3,496 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aditya Prakash | Cybersecurity Researcher & Full-Stack Developer</title>
     
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'cyber-blue': '#00f0ff',
-                        'cyber-blue-dark': '#00bcd4',
-                        'cyber-green': '#39ff14',
-                        'cyber-dark': '#0d0d0d',
-                        'cyber-light': '#f5f5f5',
-                    },
-                    fontFamily: {
-                        'cyber': ['"Orbitron"', 'sans-serif'],
-                        'sans': ['"Poppins"', 'sans-serif'],
-                    },
-                    animation: {
-                        'glitch': 'glitch 5s infinite',
-                        'float': 'float 5s ease-in-out infinite',
-                        'pulse-glow': 'pulse-glow 2s infinite',
-                        'wheel': 'wheel 1.5s infinite',
-                    },
-                    keyframes: {
-                        glitch: {
-                            '0%, 100%': { transform: 'translate(0)' },
-                            '2%': { transform: 'translate(-2px, 1px)' },
-                            '3%': { transform: 'translate(2px, -1px)' },
-                            '4%, 6%': { transform: 'translate(0, 0)' },
-                            '5%': { transform: 'translate(0)' }
-                        },
-                        float: {
-                            '0%, 100%': { transform: 'translateY(0)' },
-                            '50%': { transform: 'translateY(-20px)' }
-                        },
-                        'pulse-glow': {
-                            '0%, 100%': { opacity: 0.8 },
-                            '50%': { opacity: 1, boxShadow: '0 0 20px rgba(0, 240, 255, 0.7)' }
-                        },
-                        wheel: {
-                            '0%': { transform: 'translateX(-50%) translateY(0)', opacity: 1 },
-                            '100%': { transform: 'translateX(-50%) translateY(15px)', opacity: 0 }
-                        }
-                    }
-                }
-            }
+    <!-- Primary Meta Tags -->
+    <title>Aditya Prakash - Cybersecurity Researcher | eJPT | Bug Bounty Hunter | Pune, India</title>
+    <meta name="title" content="Aditya Prakash - Cybersecurity Researcher | eJPT Certified | Top 3% TryHackMe">
+    <meta name="description" content="Cybersecurity researcher and ethical hacker from Pune, India. eJPT certified, Top 3% on TryHackMe, specializing in network reconnaissance, fuzzing, penetration testing, and bug bounty hunting. Building security tools and CTF platforms.">
+    <meta name="keywords" content="Aditya Prakash, cybersecurity researcher, ethical hacker, eJPT certified, penetration testing, bug bounty hunter, network security, fuzzing, TryHackMe, security tools, CTF, Pune, India, Newton School of Technology, Python security tools, network fuzzer, vulnerability research">
+    <meta name="author" content="Aditya Prakash">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adityaprakash.dev/">
+    <meta property="og:title" content="Aditya Prakash - Cybersecurity Researcher | eJPT | Bug Bounty Hunter">
+    <meta property="og:description" content="eJPT certified cybersecurity researcher from Pune, India. Top 3% on TryHackMe. Specializing in penetration testing, fuzzing, and security tool development.">
+    <meta property="og:image" content="https://adityaprakash.dev/PHOTO-2025-10-21-16-33-05.jpg">
+    <meta property="og:site_name" content="Aditya Prakash Portfolio">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://adityaprakash.dev/">
+    <meta property="twitter:title" content="Aditya Prakash - Cybersecurity Researcher | eJPT Certified">
+    <meta property="twitter:description" content="eJPT certified cybersecurity researcher. Top 3% TryHackMe. Expert in penetration testing, fuzzing, bug bounty hunting.">
+    <meta property="twitter:image" content="https://adityaprakash.dev/PHOTO-2025-10-21-16-33-05.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://adityaprakash.dev/">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Aditya Prakash",
+      "url": "https://adityaprakash.dev",
+      "image": "https://adityaprakash.dev/PHOTO-2025-10-21-16-33-05.jpg",
+      "jobTitle": "Cybersecurity Researcher",
+      "description": "eJPT certified cybersecurity researcher specializing in penetration testing, fuzzing, and security tool development",
+      "email": "ap312038@gmail.com",
+      "telephone": "+91-XXXXXXXXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "India"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Newton School of Technology",
+        "url": "https://www.newtonschool.co/"
+      },
+      "sameAs": [
+        "https://github.com/Aditya-Prakash14",
+        "https://www.linkedin.com/in/aditya-prakash-55b7b5183/",
+        "https://tryhackme.com/p/Hacksof2021"
+      ],
+      "knowsAbout": [
+        "Cybersecurity",
+        "Penetration Testing",
+        "Ethical Hacking",
+        "Bug Bounty Hunting",
+        "Network Security",
+        "Fuzzing",
+        "Python Programming",
+        "Security Tools Development",
+        "CTF",
+        "Vulnerability Research"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "eJPT (eLearnSecurity Junior Penetration Tester)",
+          "credentialCategory": "certification"
         }
+      ]
+    }
     </script>
     
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
     
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
-    
-    <!-- AOS Animation Library -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    <!-- Three.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    
-    <!-- GSAP Animation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Three.js Canvas Background -->
-    <div id="three-container"></div>
-
-    <!-- Cursor -->
-    <div class="custom-cursor"></div>
+    <div class="matrix-bg"></div>
     
-    <!-- Navbar -->
-    <nav class="fixed top-0 left-0 w-full z-50 transition-all duration-300" id="navbar">
-        <div class="container mx-auto px-4">
-            <div class="flex items-center justify-between py-4">
-                <!-- Logo -->
-                <a href="#" class="text-cyber-blue text-2xl font-cyber font-bold tracking-wider flex items-center gap-2">
-                    <span class="inline-block relative">
-                        <span class="animate-pulse-glow">AP</span>
-                    </span>
-                </a>
-                
-                <!-- Mobile menu button -->
-                <button type="button" class="lg:hidden text-cyber-blue focus:outline-none" id="mobile-menu-button">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                    </svg>
-                </button>
-                
-                <!-- Desktop Navigation -->
-                <div class="hidden lg:flex items-center space-x-1">
-                    <ul class="flex space-x-2">
-                        <li>
-                            <a href="#home" class="nav-link px-4 py-2 font-cyber text-white/80 hover:text-cyber-blue relative overflow-hidden group">
-                                Home
-                                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyber-blue to-cyber-green group-hover:w-full transition-all duration-300"></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#about" class="nav-link px-4 py-2 font-cyber text-white/80 hover:text-cyber-blue relative overflow-hidden group">
-                                About
-                                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyber-blue to-cyber-green group-hover:w-full transition-all duration-300"></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#projects" class="nav-link px-4 py-2 font-cyber text-white/80 hover:text-cyber-blue relative overflow-hidden group">
-                                Projects
-                                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyber-blue to-cyber-green group-hover:w-full transition-all duration-300"></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#blog" class="nav-link px-4 py-2 font-cyber text-white/80 hover:text-cyber-blue relative overflow-hidden group">
-                                Blog
-                                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyber-blue to-cyber-green group-hover:w-full transition-all duration-300"></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="nav-link px-4 py-2 font-cyber text-white/80 hover:text-cyber-blue relative overflow-hidden group">
-                                Contact
-                                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyber-blue to-cyber-green group-hover:w-full transition-all duration-300"></span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-terminal"></i>
+                <span class="logo-text">root@portfolio:~#</span>
             </div>
-        </div>
-        
-        <!-- Mobile Navigation Menu -->
-        <div class="lg:hidden hidden bg-black/80 backdrop-blur-md border border-cyber-blue/10 mt-2 mx-4 rounded-lg overflow-hidden shadow-lg" id="mobile-menu">
-            <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="#home" class="block px-3 py-2 font-cyber text-white/80 hover:text-cyber-blue hover:bg-black/40 rounded-md">Home</a>
-                <a href="#about" class="block px-3 py-2 font-cyber text-white/80 hover:text-cyber-blue hover:bg-black/40 rounded-md">About</a>
-                <a href="#projects" class="block px-3 py-2 font-cyber text-white/80 hover:text-cyber-blue hover:bg-black/40 rounded-md">Projects</a>
-                <a href="#blog" class="block px-3 py-2 font-cyber text-white/80 hover:text-cyber-blue hover:bg-black/40 rounded-md">Blog</a>
-                <a href="#contact" class="block px-3 py-2 font-cyber text-white/80 hover:text-cyber-blue hover:bg-black/40 rounded-md">Contact</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="relative min-h-screen flex items-center overflow-hidden">
-        <!-- Background overlay with gradient -->
-        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-cyber-dark opacity-30 z-0"></div>
-        
-        <div class="container mx-auto px-4 z-10 relative">
-            <div class="flex flex-col items-center justify-center">
-                <!-- Glass card container -->
-                <div class="bg-black/70 backdrop-blur-md border border-cyber-blue/10 rounded-xl p-8 md:p-12 max-w-3xl mx-auto shadow-lg shadow-cyber-blue/20" data-aos="fade-up">
-                    <!-- Main heading with glitch effect -->
-                    <h1 class="font-cyber font-bold text-4xl md:text-5xl lg:text-6xl text-white mb-6 animate-glitch tracking-wider text-center">
-                        Aditya Prakash
-                    </h1>
-                    
-                    <!-- Typewriter effect container -->
-                    <div class="h-12 mb-8">
-                        <h2 class="font-cyber text-xl md:text-2xl text-cyber-blue tracking-wide text-center" id="hero-subtitle">
-                            Cybersecurity Researcher & Full-Stack Developer
-                        </h2>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="btn-close"></span>
+                        <span class="btn-minimize"></span>
+                        <span class="btn-maximize"></span>
                     </div>
-                    
-                    <p class="text-white/90 text-lg md:text-xl text-center mb-10">
-                        Building secure, innovative web solutions and breaking things for fun
+                    <div class="terminal-title">root@portfolio: ~</div>
+                </div>
+                <div class="terminal-body">
+                    <p class="terminal-line">
+                        <span class="prompt">root@portfolio:~$</span> 
+                        <span class="command">whoami</span>
                     </p>
-                    
-                    <!-- Buttons with hover effects -->
-                    <div class="flex flex-wrap justify-center gap-4">
-                        <a href="#" class="group relative px-8 py-3 bg-transparent border-2 border-cyber-blue text-cyber-blue hover:text-cyber-dark font-cyber uppercase text-sm tracking-wider overflow-hidden transition-all duration-300 rounded-md shadow-md shadow-cyber-blue/20 hover:shadow-cyber-blue/40">
-                            <span class="absolute inset-0 bg-cyber-blue w-0 group-hover:w-full transition-all duration-300"></span>
-                            <span class="relative z-10">Download Resume</span>
-                        </a>
-                        <a href="#contact" class="group relative px-8 py-3 bg-transparent border-2 border-cyber-green text-cyber-green hover:text-cyber-dark font-cyber uppercase text-sm tracking-wider overflow-hidden transition-all duration-300 rounded-md shadow-md shadow-cyber-green/20 hover:shadow-cyber-green/40">
-                            <span class="absolute inset-0 bg-cyber-green w-0 group-hover:w-full transition-all duration-300"></span>
-                            <span class="relative z-10">Let's Connect</span>
-                        </a>
-                    </div>
+                    <p class="terminal-output">Aditya Prakash</p>
+                    <p class="terminal-line">
+                        <span class="prompt">root@portfolio:~$</span> 
+                        <span class="command">cat role.txt</span>
+                    </p>
+                    <p class="terminal-output">Cybersecurity Researcher | eJPT | Top 3% TryHackMe</p>
+                    <p class="terminal-line">
+                        <span class="prompt">root@portfolio:~$</span> 
+                        <span class="command">echo $MISSION</span>
+                    </p>
+                    <p class="terminal-output typing-animation">Building security tools and learning platforms for a safer digital world...</p>
+                    <p class="terminal-line cursor-blink">
+                        <span class="prompt">root@portfolio:~$</span>
+                        <span class="cursor">_</span>
+                    </p>
                 </div>
             </div>
-        </div>
-        
-        <!-- Scroll indicator -->
-        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-10 animate-bounce">
-            <div class="w-6 h-10 border-2 border-cyber-blue rounded-full flex justify-center">
-                <span class="w-1 h-3 bg-cyber-blue rounded-full mt-2 animate-wheel"></span>
-            </div>
-            <div class="flex flex-col items-center mt-2">
-                <span class="w-3 h-3 border-b-2 border-r-2 border-cyber-blue transform rotate-45 -mt-1"></span>
-                <span class="w-3 h-3 border-b-2 border-r-2 border-cyber-blue transform rotate-45 -mt-1"></span>
+            <div class="social-links" role="navigation" aria-label="Social media links">
+                <a href="https://github.com/Aditya-Prakash14" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aditya-prakash-55b7b5183/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://tryhackme.com/p/Hacksof2021" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="TryHackMe Profile"><i class="fas fa-trophy"></i></a>
+                <a href="mailto:ap312038@gmail.com" class="social-icon" aria-label="Email Contact"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-24 relative overflow-hidden">
-        <!-- Background patterns -->
-        <div class="absolute inset-0 bg-cyber-dark/90 z-0"></div>
-        <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#00f0ff_1px,transparent_1px)] bg-[size:30px_30px] z-0"></div>
-        
-        <!-- Content container -->
-        <div class="container mx-auto px-4 relative z-10">
-            <!-- Section heading -->
-            <h2 class="text-center font-cyber text-3xl md:text-4xl font-bold text-cyber-blue mb-16 tracking-wider">
-                <span class="inline-block relative">
-                    About Me
-                    <span class="absolute -bottom-3 left-0 w-full h-1 bg-gradient-to-r from-cyber-blue to-cyber-green"></span>
-                </span>
-            </h2>
-            
-            <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-                <!-- Profile image -->
-                <div class="w-full lg:w-1/3 flex justify-center" data-aos="fade-right">
-                    <div class="w-64 h-64 md:w-72 md:h-72 relative group">
-                        <!-- Animated border effect -->
-                        <div class="absolute inset-0 rounded-[30%_70%_70%_30%/30%_30%_70%_70%] bg-gradient-to-r from-cyber-blue to-cyber-green opacity-75 blur-md group-hover:blur-xl transition-all duration-1000 animate-spin-slow"></div>
-                        
-                        <!-- Profile container -->
-                        <div class="absolute inset-[3px] rounded-[30%_70%_70%_30%/30%_30%_70%_70%] bg-cyber-dark flex items-center justify-center overflow-hidden z-10 animate-morph">
-                            <div class="text-5xl font-cyber text-cyber-blue animate-pulse-glow">AP</div>
-                        </div>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="glitch" data-text="About Me">About Me</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="scan-line"></div>
+                        <img src="PHOTO-2025-10-21-16-33-05.jpg" alt="Profile">
+                        <div class="corner corner-tl"></div>
+                        <div class="corner corner-tr"></div>
+                        <div class="corner corner-bl"></div>
+                        <div class="corner corner-br"></div>
                     </div>
                 </div>
-                
-                <!-- About content -->
-                <div class="w-full lg:w-2/3" data-aos="fade-left">
-                    <div class="bg-black/40 backdrop-blur-md border border-cyber-blue/10 rounded-xl p-6 md:p-8 shadow-lg">
-                        <p class="text-lg text-white/90 mb-4">
-                            Aditya Prakash is a <span class="text-cyber-green font-semibold">Cybersecurity Researcher</span> and 
-                            <span class="text-cyber-blue font-semibold">Full-Stack Developer</span> currently pursuing Computer Science and Engineering 
-                            with AI specialization at Newton School of Technology, ADYPU.
-                        </p>
-                        <p class="text-white/80 mb-6">
-                            He's passionate about open source, web development, machine learning, and cybersecurity. 
-                            He has worked on bug bounty programs, holds an eJPT certification, ranks in the top 3% on TryHackMe, 
-                            and is preparing for GSoC, ICPC, and OSCP.
-                        </p>
-                        
-                        <!-- Skills -->
-                        <div class="mt-8">
-                            <h4 class="text-cyber-green font-cyber text-xl mb-4 tracking-wide">Skills</h4>
-                            <div class="flex flex-wrap gap-3">
-                                <span class="px-4 py-2 bg-cyber-blue/10 text-cyber-blue border border-cyber-blue/20 rounded-md text-sm font-cyber tracking-wide transform hover:translate-y-[-5px] hover:shadow-lg hover:shadow-cyber-blue/20 transition-all duration-300">Cybersecurity</span>
-                                <span class="px-4 py-2 bg-cyber-blue/10 text-cyber-blue border border-cyber-blue/20 rounded-md text-sm font-cyber tracking-wide transform hover:translate-y-[-5px] hover:shadow-lg hover:shadow-cyber-blue/20 transition-all duration-300">React</span>
-                                <span class="px-4 py-2 bg-cyber-blue/10 text-cyber-blue border border-cyber-blue/20 rounded-md text-sm font-cyber tracking-wide transform hover:translate-y-[-5px] hover:shadow-lg hover:shadow-cyber-blue/20 transition-all duration-300">Django</span>
-                                <span class="px-4 py-2 bg-cyber-blue/10 text-cyber-blue border border-cyber-blue/20 rounded-md text-sm font-cyber tracking-wide transform hover:translate-y-[-5px] hover:shadow-lg hover:shadow-cyber-blue/20 transition-all duration-300">Python</span>
-                                <span class="px-4 py-2 bg-cyber-blue/10 text-cyber-blue border border-cyber-blue/20 rounded-md text-sm font-cyber tracking-wide transform hover:translate-y-[-5px] hover:shadow-lg hover:shadow-cyber-blue/20 transition-all duration-300">JavaScript</span>
-                                <span class="px-4 py-2 bg-cyber-blue/10 text-cyber-blue border border-cyber-blue/20 rounded-md text-sm font-cyber tracking-wide transform hover:translate-y-[-5px] hover:shadow-lg hover:shadow-cyber-blue/20 transition-all duration-300">Java</span>
-                                <span class="px-4 py-2 bg-cyber-blue/10 text-cyber-blue border border-cyber-blue/20 rounded-md text-sm font-cyber tracking-wide transform hover:translate-y-[-5px] hover:shadow-lg hover:shadow-cyber-blue/20 transition-all duration-300">Machine Learning</span>
-                                <span class="px-4 py-2 bg-cyber-blue/10 text-cyber-blue border border-cyber-blue/20 rounded-md text-sm font-cyber tracking-wide transform hover:translate-y-[-5px] hover:shadow-lg hover:shadow-cyber-blue/20 transition-all duration-300">Penetration Testing</span>
-                            </div>
+                <div class="about-text">
+                    <div class="info-box">
+                        <p class="info-line"><span class="info-label">[+] Name:</span> Aditya Prakash</p>
+                        <p class="info-line"><span class="info-label">[+] Role:</span> Cybersecurity Researcher</p>
+                        <p class="info-line"><span class="info-label">[+] Location:</span> Pune, India</p>
+                        <p class="info-line"><span class="info-label">[+] Email:</span> ap312038@gmail.com</p>
+                        <p class="info-line"><span class="info-label">[+] Education:</span> Newton School of Technology</p>
+                        <p class="info-line"><span class="info-label">[+] Certifications:</span> eJPT | Top 3% TryHackMe</p>
+                    </div>
+                    <p class="about-description">
+                        I'm a cybersecurity researcher and developer passionate about vulnerability research, tooling, 
+                        and applied machine learning for security. I build pragmatic tools (network scanners, fuzzers), 
+                        design CTF-style labs and training platforms, and research exploit surfaces to improve defensive 
+                        postures. I'm studying Computer Science & Engineering with an AI focus at Newton School of Technology 
+                        and actively contribute to open-source security tooling and education.
+                    </p>
+                    <a href="#contact" class="btn-htb">
+                        <span>Contact Me</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <div class="certifications-badges">
+                        <div class="cert-badge">
+                            <i class="fas fa-certificate"></i>
+                            <span>eJPT Certified</span>
+                        </div>
+                        <div class="cert-badge">
+                            <i class="fas fa-trophy"></i>
+                            <span>Top 3% TryHackMe</span>
+                        </div>
+                        <div class="cert-badge">
+                            <i class="fas fa-bug"></i>
+                            <span>Bug Bounty Hunter</span>
                         </div>
                     </div>
+                    <div class="tryhackme-badge">
+                        <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=409219" style='border:none; width: 100%; max-width: 400px; height: 80px;'></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="glitch" data-text="Skills">Skills</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Languages</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-bullet">></span> Python (Advanced)</li>
+                        <li><span class="skill-bullet">></span> JavaScript/Node.js</li>
+                        <li><span class="skill-bullet">></span> Java (Android)</li>
+                        <li><span class="skill-bullet">></span> Bash Scripting</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Web & Backend</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-bullet">></span> Django/Flask/FastAPI</li>
+                        <li><span class="skill-bullet">></span> React/Next.js</li>
+                        <li><span class="skill-bullet">></span> Supabase/Appwrite</li>
+                        <li><span class="skill-bullet">></span> RESTful APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security Tools</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-bullet">></span> Nmap/Custom Scanners</li>
+                        <li><span class="skill-bullet">></span> Fuzzing/AFL Concepts</li>
+                        <li><span class="skill-bullet">></span> Reconnaissance Automation</li>
+                        <li><span class="skill-bullet">></span> Bug Bounty Hunting</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>DevOps & ML</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-bullet">></span> Docker/CI-CD</li>
+                        <li><span class="skill-bullet">></span> Basic NLP & ML</li>
+                        <li><span class="skill-bullet">></span> Android Studio</li>
+                        <li><span class="skill-bullet">></span> Forensic Analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="glitch" data-text="Achievements">Achievements</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>eJPT Certification</h3>
+                    <p>eLearnSecurity Junior Penetration Tester certification demonstrating practical pentesting skills and methodology.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Top 3% on TryHackMe</h3>
+                    <p>Ranked in the top 3% of users on TryHackMe platform, completing advanced security challenges and labs.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>Bug Bounty Hunter</h3>
+                    <p>Active bug bounty practitioner with experience in vulnerability research and responsible disclosure.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Cybersecurity Club Founder</h3>
+                    <p>Initiated and organized the Cybersecurity Club at Newton School of Technology, coordinating curriculum and onboarding.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>Open Source Contributor</h3>
+                    <p>Active contributor to open-source security tools and educational projects, including GSoC proposal work.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>CSE with AI Focus</h3>
+                    <p>Pursuing Computer Science & Engineering with specialization in AI at Newton School of Technology.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-24 relative bg-cyber-dark/90">
-        <!-- Background patterns -->
-        <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#39ff14_1px,transparent_1px)] bg-[size:30px_30px] z-0"></div>
-
-        <div class="container mx-auto px-4 relative z-10">
-            <!-- Section heading -->
-            <h2 class="text-center font-cyber text-3xl md:text-4xl font-bold text-cyber-blue mb-16 tracking-wider">
-                <span class="inline-block relative">
-                    Projects
-                    <span class="absolute -bottom-3 left-0 w-full h-1 bg-gradient-to-r from-cyber-blue to-cyber-green"></span>
-                </span>
-            </h2>
-
-            <!-- Filter buttons -->
-            <div class="flex flex-wrap justify-center gap-2 md:gap-4 mb-12">
-                <button class="filter-btn px-5 py-2 font-cyber text-sm tracking-wide border border-cyber-blue/30 rounded-md bg-transparent text-white/80 hover:text-cyber-dark hover:bg-cyber-blue transition-all duration-300 active" data-filter="all">
-                    All
-                </button>
-                <button class="filter-btn px-5 py-2 font-cyber text-sm tracking-wide border border-cyber-blue/30 rounded-md bg-transparent text-white/80 hover:text-cyber-dark hover:bg-cyber-blue transition-all duration-300" data-filter="security">
-                    Security
-                </button>
-                <button class="filter-btn px-5 py-2 font-cyber text-sm tracking-wide border border-cyber-blue/30 rounded-md bg-transparent text-white/80 hover:text-cyber-dark hover:bg-cyber-blue transition-all duration-300" data-filter="web">
-                    Web Apps
-                </button>
-                <button class="filter-btn px-5 py-2 font-cyber text-sm tracking-wide border border-cyber-blue/30 rounded-md bg-transparent text-white/80 hover:text-cyber-dark hover:bg-cyber-blue transition-all duration-300" data-filter="mobile">
-                    Mobile
-                </button>
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="glitch" data-text="Projects">Projects</h2>
+                <div class="header-line"></div>
             </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-status">
+                            <span class="status-dot"></span> Active
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Fuzzing</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">network_fuzzer.py</h3>
+                    <p class="project-description">
+                        A network protocol fuzzer for discovering edge cases and crashes in homegrown services 
+                        and test targets. Designed with AFL-style concepts for automated vulnerability discovery.
+                        Architecture ready for scaling into a comprehensive fuzzing toolkit.
+                    </p>
+                    <div class="project-footer">
+                        <a href="https://github.com/Aditya-Prakash14" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-book"></i> Case Study
+                        </a>
+                    </div>
+                </div>
 
-            <!-- Projects Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-                <!-- Project Card 1 -->
-                <div class="project-card group" data-aos="zoom-in" data-aos-delay="100" data-category="security web">
-                    <div class="bg-black/40 backdrop-blur-md border border-cyber-blue/10 rounded-xl overflow-hidden h-full transform transition-all duration-500 group-hover:shadow-lg group-hover:shadow-cyber-blue/20 group-hover:-translate-y-2">
-                        <!-- Project Header with image (optional) -->
-                        <div class="h-48 bg-gradient-to-br from-cyber-dark-darker to-cyber-dark relative overflow-hidden">
-                            <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#00f0ff_1px,transparent_1px)] bg-[size:20px_20px]"></div>
-                            <div class="absolute inset-0 flex items-center justify-center">
-                                <div class="text-cyber-blue text-5xl opacity-20">
-                                    <i class="fas fa-robot"></i>
-                                </div>
-                            </div>
-                            <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black to-transparent"></div>
-                            <div class="absolute bottom-4 left-4">
-                                <h3 class="font-cyber text-xl text-cyber-blue">AI Interviewer Platform</h3>
-                            </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-status completed">
+                            <span class="status-dot"></span> Completed
                         </div>
-                        
-                        <!-- Project Body -->
-                        <div class="p-6">
-                            <p class="text-white/80 mb-4">An intelligent platform that simulates technical interviews using NLP and provides feedback to candidates.</p>
-                            
-                            <!-- Tech Tags -->
-                            <div class="flex flex-wrap gap-2 my-4">
-                                <span class="px-3 py-1 bg-cyber-blue/10 border border-cyber-blue/20 text-cyber-blue text-xs font-cyber rounded">React</span>
-                                <span class="px-3 py-1 bg-cyber-blue/10 border border-cyber-blue/20 text-cyber-blue text-xs font-cyber rounded">Django</span>
-                                <span class="px-3 py-1 bg-cyber-blue/10 border border-cyber-blue/20 text-cyber-blue text-xs font-cyber rounded">NLP</span>
-                            </div>
-                            
-                            <!-- Project Links -->
-                            <div class="flex gap-3 mt-6">
-                                <a href="#" class="group/btn relative px-4 py-2 bg-transparent border border-cyber-blue text-cyber-blue text-xs font-cyber tracking-wider overflow-hidden transition-all duration-300 rounded flex items-center gap-2 hover:shadow-md hover:shadow-cyber-blue/20">
-                                    <span class="absolute inset-0 w-0 bg-cyber-blue/10 transition-all duration-300 group-hover/btn:w-full"></span>
-                                    <i class="fab fa-github relative z-10"></i>
-                                    <span class="relative z-10">Code</span>
-                                </a>
-                                <a href="#" class="group/btn relative px-4 py-2 bg-transparent border border-cyber-green text-cyber-green text-xs font-cyber tracking-wider overflow-hidden transition-all duration-300 rounded flex items-center gap-2 hover:shadow-md hover:shadow-cyber-green/20">
-                                    <span class="absolute inset-0 w-0 bg-cyber-green/10 transition-all duration-300 group-hover/btn:w-full"></span>
-                                    <i class="fas fa-external-link-alt relative z-10"></i>
-                                    <span class="relative z-10">Live</span>
-                                </a>
-                            </div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Recon</span>
                         </div>
                     </div>
-                </div>
-                
-                <!-- Project Card 2 -->
-                <div class="project-card group" data-aos="zoom-in" data-aos-delay="200" data-category="mobile">
-                    <div class="bg-black/40 backdrop-blur-md border border-cyber-blue/10 rounded-xl overflow-hidden h-full transform transition-all duration-500 group-hover:shadow-lg group-hover:shadow-cyber-blue/20 group-hover:-translate-y-2">
-                        <!-- Project Header with image (optional) -->
-                        <div class="h-48 bg-gradient-to-br from-cyber-dark-darker to-cyber-dark relative overflow-hidden">
-                            <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#00f0ff_1px,transparent_1px)] bg-[size:20px_20px]"></div>
-                            <div class="absolute inset-0 flex items-center justify-center">
-                                <div class="text-cyber-green text-5xl opacity-20">
-                                    <i class="fas fa-mobile-alt"></i>
-                                </div>
-                            </div>
-                            <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black to-transparent"></div>
-                            <div class="absolute bottom-4 left-4">
-                                <h3 class="font-cyber text-xl text-cyber-green">Learn101 Android App</h3>
-                            </div>
-                        </div>
-                        
-                        <!-- Project Body -->
-                        <div class="p-6">
-                            <p class="text-white/80 mb-4">Mobile learning application designed to provide interactive educational content for students on the go.</p>
-                            
-                            <!-- Tech Tags -->
-                            <div class="flex flex-wrap gap-2 my-4">
-                                <span class="px-3 py-1 bg-cyber-blue/10 border border-cyber-blue/20 text-cyber-blue text-xs font-cyber rounded">Java</span>
-                                <span class="px-3 py-1 bg-cyber-blue/10 border border-cyber-blue/20 text-cyber-blue text-xs font-cyber rounded">Android</span>
-                            </div>
-                            
-                            <!-- Project Links -->
-                            <div class="flex gap-3 mt-6">
-                                <a href="#" class="group/btn relative px-4 py-2 bg-transparent border border-cyber-blue text-cyber-blue text-xs font-cyber tracking-wider overflow-hidden transition-all duration-300 rounded flex items-center gap-2 hover:shadow-md hover:shadow-cyber-blue/20">
-                                    <span class="absolute inset-0 w-0 bg-cyber-blue/10 transition-all duration-300 group-hover/btn:w-full"></span>
-                                    <i class="fab fa-github relative z-10"></i>
-                                    <span class="relative z-10">Code</span>
-                                </a>
-                                <a href="#" class="group/btn relative px-4 py-2 bg-transparent border border-cyber-green text-cyber-green text-xs font-cyber tracking-wider overflow-hidden transition-all duration-300 rounded flex items-center gap-2 hover:shadow-md hover:shadow-cyber-green/20">
-                                    <span class="absolute inset-0 w-0 bg-cyber-green/10 transition-all duration-300 group-hover/btn:w-full"></span>
-                                    <i class="fas fa-external-link-alt relative z-10"></i>
-                                    <span class="relative z-10">Live</span>
-                                </a>
-                            </div>
-                        </div>
+                    <h3 class="project-title">Network Reconnaissance Suite</h3>
+                    <p class="project-description">
+                        Collection of lightweight scanning tools: arp_scan.py, ip_scan.py, nmap_scan.py, 
+                        and information_gathering_tool.py. Designed for fast asset discovery and initial 
+                        triage during security assessments and lab setups.
+                    </p>
+                    <div class="project-footer">
+                        <a href="https://github.com/Aditya-Prakash14" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-terminal"></i> Demo
+                        </a>
                     </div>
                 </div>
-                
-                <!-- Project Card 3 -->
-                <div class="project-card group" data-aos="zoom-in" data-aos-delay="300" data-category="web">
-                    <div class="bg-black/40 backdrop-blur-md border border-cyber-blue/10 rounded-xl overflow-hidden h-full transform transition-all duration-500 group-hover:shadow-lg group-hover:shadow-cyber-blue/20 group-hover:-translate-y-2">
-                        <!-- Project Header with image (optional) -->
-                        <div class="h-48 bg-gradient-to-br from-cyber-dark-darker to-cyber-dark relative overflow-hidden">
-                            <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#00f0ff_1px,transparent_1px)] bg-[size:20px_20px]"></div>
-                            <div class="absolute inset-0 flex items-center justify-center">
-                                <div class="text-cyber-blue text-5xl opacity-20">
-                                    <i class="fas fa-graduation-cap"></i>
-                                </div>
-                            </div>
-                            <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black to-transparent"></div>
-                            <div class="absolute bottom-4 left-4">
-                                <h3 class="font-cyber text-xl text-cyber-blue">REstart - NSAT Prep</h3>
-                            </div>
-                        </div>
-                        
-                        <!-- Project Body -->
-                        <div class="p-6">
-                            <p class="text-white/80 mb-4">A comprehensive platform for students preparing for the National Scholastic Aptitude Test with practice tests and analytics.</p>
-                            
-                            <!-- Tech Tags -->
-                            <div class="flex flex-wrap gap-2 my-4">
-                                <span class="px-3 py-1 bg-cyber-blue/10 border border-cyber-blue/20 text-cyber-blue text-xs font-cyber rounded">React</span>
-                                <span class="px-3 py-1 bg-cyber-blue/10 border border-cyber-blue/20 text-cyber-blue text-xs font-cyber rounded">Supabase</span>
-                            </div>
-                            
-                            <!-- Project Links -->
-                            <div class="flex gap-3 mt-6">
-                                <a href="#" class="group/btn relative px-4 py-2 bg-transparent border border-cyber-blue text-cyber-blue text-xs font-cyber tracking-wider overflow-hidden transition-all duration-300 rounded flex items-center gap-2 hover:shadow-md hover:shadow-cyber-blue/20">
-                                    <span class="absolute inset-0 w-0 bg-cyber-blue/10 transition-all duration-300 group-hover/btn:w-full"></span>
-                                    <i class="fab fa-github relative z-10"></i>
-                                    <span class="relative z-10">Code</span>
-                                </a>
-                                <a href="#" class="group/btn relative px-4 py-2 bg-transparent border border-cyber-green text-cyber-green text-xs font-cyber tracking-wider overflow-hidden transition-all duration-300 rounded flex items-center gap-2 hover:shadow-md hover:shadow-cyber-green/20">
-                                    <span class="absolute inset-0 w-0 bg-cyber-green/10 transition-all duration-300 group-hover/btn:w-full"></span>
-                                    <i class="fas fa-external-link-alt relative z-10"></i>
-                                    <span class="relative z-10">Live</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project Card 4 -->
-                <div class="project-card group" data-aos="zoom-in" data-aos-delay="100" data-category="security">
-                    <div class="bg-black/40 backdrop-blur-md border border-cyber-blue/10 rounded-xl overflow-hidden h-full transform transition-all duration-500 group-hover:shadow-lg group-hover:shadow-cyber-blue/20 group-hover:-translate-y-2">
-                        <!-- Project Header with image (optional) -->
-                        <div class="h-48 bg-gradient-to-br from-cyber-dark-darker to-cyber-dark relative overflow-hidden">
-                            <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#00f0ff_1px,transparent_1px)] bg-[size:20px_20px]"></div>
-                            <div class="absolute inset-0 flex items-center justify-center">
-                                <div class="text-cyber-green text-5xl opacity-20">
-                                    <i class="fas fa-shield-alt"></i>
-                                </div>
-                            </div>
-                            <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black to-transparent"></div>
-                            <div class="absolute bottom-4 left-4">
-                                <h3 class="font-cyber text-xl text-cyber-green">RootCode</h3>
-                            </div>
-                        </div>
-                        
-                        <!-- Project Body -->
-                        <div class="p-6">
-                            <p class="text-white/80 mb-4">Cybersecurity challenge platform featuring CTF-style exercises to practice ethical hacking skills.</p>
-                            
-                            <!-- Tech Tags -->
-                            <div class="flex flex-wrap gap-2 my-4">
-                                <span class="px-3 py-1 bg-cyber-blue/10 border border-cyber-blue/20 text-cyber-blue text-xs font-cyber rounded">Flask</span>
-                                <span class="px-3 py-1 bg-cyber-blue/10 border border-cyber-blue/20 text-cyber-blue text-xs font-cyber rounded">Docker</span>
-                                <span class="px-3 py-1 bg-cyber-blue/10 border border-cyber-blue/20 text-cyber-blue text-xs font-cyber rounded">JS</span>
-                            </div>
-                            
-                            <!-- Project Links -->
-                            <div class="flex gap-3 mt-6">
-                                <a href="#" class="group/btn relative px-4 py-2 bg-transparent border border-cyber-blue text-cyber-blue text-xs font-cyber tracking-wider overflow-hidden transition-all duration-300 rounded flex items-center gap-2 hover:shadow-md hover:shadow-cyber-blue/20">
-                                    <span class="absolute inset-0 w-0 bg-cyber-blue/10 transition-all duration-300 group-hover/btn:w-full"></span>
-                                    <i class="fab fa-github relative z-10"></i>
-                                    <span class="relative z-10">Code</span>
-                                </a>
-                                <a href="#" class="group/btn relative px-4 py-2 bg-transparent border border-cyber-green text-cyber-green text-xs font-cyber tracking-wider overflow-hidden transition-all duration-300 rounded flex items-center gap-2 hover:shadow-md hover:shadow-cyber-green/20">
-                                    <span class="absolute inset-0 w-0 bg-cyber-green/10 transition-all duration-300 group-hover/btn:w-full"></span>
-                                    <i class="fas fa-external-link-alt relative z-10"></i>
-                                    <span class="relative z-10">Live</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project Card 5 -->
-                <div class="project-card group" data-aos="zoom-in" data-aos-delay="200" data-category="web">
-                    <div class="bg-black/40 backdrop-blur-md border border-cyber-blue/10 rounded-xl overflow-hidden h-full transform transition-all duration-500 group-hover:shadow-lg group-hover:shadow-cyber-blue/20 group-hover:-translate-y-2">
-                        <!-- Project Header with image (optional) -->
-                        <div class="h-48 bg-gradient-to-br from-cyber-dark-darker to-cyber-dark relative overflow-hidden">
-                            <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#00f0ff_1px,transparent_1px)] bg-[size:20px_20px]"></div>
-                            <div class="absolute inset-0 flex items-center justify-center">
-                                <div class="text-cyber-blue text-5xl opacity-20">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                            </div>
-                            <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black to-transparent"></div>
-                            <div class="absolute bottom-4 left-4">
-                                <h3 class="font-cyber text-xl text-cyber-blue">Connect.club</h3>
-                            </div>
-                        </div>
-                        
-                        <!-- Project Body -->
-                        <div class="p-6">
-                            <p class="text-white/80 mb-4">Club management system for university organizations to handle events, members, and resources efficiently.</p>
-                            
-                            <!-- Tech Tags -->
-                            <div class="flex flex-wrap gap-2 my-4">
-                                <span class="px-3 py-1 bg-cyber-blue/10 border border-cyber-blue/20 text-cyber-blue text-xs font-cyber rounded">MERN</span>
-                                <span class="px-3 py-1 bg-cyber-blue/10 border border-cyber-blue/20 text-cyber-blue text-xs font-cyber rounded">Socket.io</span>
-                            </div>
-                            
-                            <!-- Project Links -->
-                            <div class="flex gap-3 mt-6">
-                                <a href="#" class="group/btn relative px-4 py-2 bg-transparent border border-cyber-blue text-cyber-blue text-xs font-cyber tracking-wider overflow-hidden transition-all duration-300 rounded flex items-center gap-2 hover:shadow-md hover:shadow-cyber-blue/20">
-                                    <span class="absolute inset-0 w-0 bg-cyber-blue/10 transition-all duration-300 group-hover/btn:w-full"></span>
-                                    <i class="fab fa-github relative z-10"></i>
-                                    <span class="relative z-10">Code</span>
-                                </a>
-                                <a href="#" class="group/btn relative px-4 py-2 bg-transparent border border-cyber-green text-cyber-green text-xs font-cyber tracking-wider overflow-hidden transition-all duration-300 rounded flex items-center gap-2 hover:shadow-md hover:shadow-cyber-green/20">
-                                    <span class="absolute inset-0 w-0 bg-cyber-green/10 transition-all duration-300 group-hover/btn:w-full"></span>
-                                    <i class="fas fa-external-link-alt relative z-10"></i>
-                                    <span class="relative z-10">Live</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Blog Section -->
-    <section id="blog" class="py-24 relative overflow-hidden">
-        <!-- Background patterns -->
-        <div class="absolute inset-0 bg-cyber-dark/80 z-0"></div>
-        <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#00f0ff_1px,transparent_1px)] bg-[size:30px_30px] z-0"></div>
-        
-        <div class="container mx-auto px-4 relative z-10">
-            <!-- Section heading -->
-            <h2 class="text-center font-cyber text-3xl md:text-4xl font-bold text-cyber-blue mb-16 tracking-wider">
-                <span class="inline-block relative">
-                    Blog & Insights
-                    <span class="absolute -bottom-3 left-0 w-full h-1 bg-gradient-to-r from-cyber-blue to-cyber-green"></span>
-                </span>
-            </h2>
-            
-            <div class="max-w-3xl mx-auto text-center mb-12">
-                <p class="text-lg text-white/90 mb-4">Stay tuned for upcoming articles on cybersecurity, full-stack development, and AI.</p>
-                <p class="text-white/80">I'll be sharing technical tutorials, insights from bug bounty programs, and my journey in the tech world.</p>
-            </div>
-            
-            <!-- Blog cards grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto mb-12">
-                <!-- Blog Card 1 -->
-                <div class="group" data-aos="fade-up" data-aos-delay="100">
-                    <div class="bg-black/40 backdrop-blur-md border border-cyber-blue/10 rounded-xl overflow-hidden h-full transform transition-all duration-500 group-hover:shadow-lg group-hover:shadow-cyber-blue/20 group-hover:-translate-y-2">
-                        <!-- Article header with glowing border -->
-                        <div class="p-6 border-b border-cyber-blue/10">
-                            <div class="flex items-center justify-between mb-4">
-                                <span class="px-3 py-1 bg-cyber-blue/10 text-cyber-blue text-xs font-cyber rounded-full">
-                                    Coming Soon
-                                </span>
-                                <span class="text-cyber-blue/70 text-xs font-cyber">May 2025</span>
-                            </div>
-                            <h3 class="text-cyber-green font-cyber text-xl mb-2">Exploiting XSS in Modern Web Applications</h3>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-status">
+                            <span class="status-dot"></span> In Development
                         </div>
-                        
-                        <!-- Article body -->
-                        <div class="p-6">
-                            <p class="text-white/80 mb-4">A deep dive into modern XSS vulnerabilities and how they can be exploited despite current protections.</p>
-                            
-                            <!-- Article footer -->
-                            <div class="flex items-center justify-between mt-4">
-                                <div class="flex items-center gap-2">
-                                    <span class="w-8 h-8 rounded-full bg-cyber-blue/20 flex items-center justify-center">
-                                        <i class="fas fa-shield-alt text-cyber-blue"></i>
-                                    </span>
-                                    <span class="text-white/70 text-xs">Security</span>
-                                </div>
-                                <span class="text-cyber-blue text-sm font-cyber flex items-center gap-1 group-hover:gap-2 transition-all duration-300">
-                                    Get notified
-                                    <i class="fas fa-arrow-right"></i>
-                                </span>
-                            </div>
+                        <div class="project-tags">
+                            <span class="tag">Django</span>
+                            <span class="tag">CTF</span>
                         </div>
+                    </div>
+                    <h3 class="project-title">RootCode Platform</h3>
+                    <p class="project-description">
+                        Challenge-based learning platform modeled after OverTheWire Bandit. Users progress 
+                        through exploitation and defensive exercises with submission tracking and scoring. 
+                        Built to teach practical cybersecurity concepts through hands-on challenges.
+                    </p>
+                    <div class="project-footer">
+                        <a href="https://github.com/Aditya-Prakash14" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-flag"></i> Preview
+                        </a>
                     </div>
                 </div>
-                
-                <!-- Blog Card 2 -->
-                <div class="group" data-aos="fade-up" data-aos-delay="200">
-                    <div class="bg-black/40 backdrop-blur-md border border-cyber-blue/10 rounded-xl overflow-hidden h-full transform transition-all duration-500 group-hover:shadow-lg group-hover:shadow-cyber-blue/20 group-hover:-translate-y-2">
-                        <!-- Article header with glowing border -->
-                        <div class="p-6 border-b border-cyber-blue/10">
-                            <div class="flex items-center justify-between mb-4">
-                                <span class="px-3 py-1 bg-cyber-blue/10 text-cyber-blue text-xs font-cyber rounded-full">
-                                    Coming Soon
-                                </span>
-                                <span class="text-cyber-blue/70 text-xs font-cyber">June 2025</span>
-                            </div>
-                            <h3 class="text-cyber-green font-cyber text-xl mb-2">Building Secure APIs with Django REST</h3>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-status completed">
+                            <span class="status-dot"></span> Published
                         </div>
-                        
-                        <!-- Article body -->
-                        <div class="p-6">
-                            <p class="text-white/80 mb-4">Best practices for implementing authentication, authorization, and preventing common API security issues.</p>
-                            
-                            <!-- Article footer -->
-                            <div class="flex items-center justify-between mt-4">
-                                <div class="flex items-center gap-2">
-                                    <span class="w-8 h-8 rounded-full bg-cyber-blue/20 flex items-center justify-center">
-                                        <i class="fas fa-code text-cyber-blue"></i>
-                                    </span>
-                                    <span class="text-white/70 text-xs">Development</span>
-                                </div>
-                                <span class="text-cyber-blue text-sm font-cyber flex items-center gap-1 group-hover:gap-2 transition-all duration-300">
-                                    Get notified
-                                    <i class="fas fa-arrow-right"></i>
-                                </span>
-                            </div>
+                        <div class="project-tags">
+                            <span class="tag">Android</span>
+                            <span class="tag">Java</span>
                         </div>
+                    </div>
+                    <h3 class="project-title">Learn101 App</h3>
+                    <p class="project-description">
+                        Android educational app delivering curated resources for AI, ML, cybersecurity, 
+                        and web development. Implements content aggregation, navigation, and resource 
+                        management for free learning materials.
+                    </p>
+                    <div class="project-footer">
+                        <a href="https://github.com/Aditya-Prakash14" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-android"></i> APK
+                        </a>
                     </div>
                 </div>
-            </div>
-            
-            <!-- Newsletter subscription -->
-            <div class="max-w-2xl mx-auto">
-                <div class="bg-black/60 backdrop-blur-md border border-cyber-blue/10 rounded-xl p-6 md:p-8 flex flex-col items-center">
-                    <div class="text-cyber-blue text-2xl mb-6">
-                        <i class="fas fa-envelope-open"></i>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-status">
+                            <span class="status-dot"></span> Active
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">ML</span>
+                        </div>
                     </div>
-                    <h4 class="font-cyber text-xl text-center text-white mb-2">Subscribe to My Newsletter</h4>
-                    <p class="text-white/70 text-center mb-6">Get notified when new articles are published</p>
-                    <div class="w-full max-w-md flex flex-col sm:flex-row gap-3">
-                        <input type="email" placeholder="Enter your email" class="flex-1 bg-black/40 border border-cyber-blue/20 text-white/90 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-cyber-blue/50 placeholder-white/40">
-                        <button class="group relative px-6 py-3 bg-transparent border-2 border-cyber-blue text-cyber-blue hover:text-cyber-dark font-cyber uppercase text-sm tracking-wider overflow-hidden transition-all duration-300 rounded-md shadow-md shadow-cyber-blue/20 hover:shadow-cyber-blue/40">
-                            <span class="absolute inset-0 bg-cyber-blue w-0 group-hover:w-full transition-all duration-300"></span>
-                            <span class="relative z-10 flex items-center gap-2">
-                                Subscribe
-                                <i class="fas fa-paper-plane"></i>
-                            </span>
-                        </button>
+                    <h3 class="project-title">AI Interviewer Dashboard</h3>
+                    <p class="project-description">
+                        EdTech platform with AI-based interviewer prototype. Voice and text answers evaluated 
+                        by NLP models. Features admin CMS, user dashboards, and ML integration for automated 
+                        assessment and feedback generation.
+                    </p>
+                    <div class="project-footer">
+                        <a href="https://github.com/Aditya-Prakash14" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-rocket"></i> Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-status">
+                            <span class="status-dot"></span> Planning
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Supabase</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">connect.club</h3>
+                    <p class="project-description">
+                        College club management portal with admin dashboard, event management, and membership 
+                        tracking. Architecture designed for scalable multi-club support with role-based access 
+                        control and analytics.
+                    </p>
+                    <div class="project-footer">
+                        <a href="https://github.com/Aditya-Prakash14" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Design
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-sitemap"></i> Architecture
+                        </a>
                     </div>
                 </div>
             </div>
@@ -641,202 +500,73 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-24 relative bg-cyber-dark/90">
-        <!-- Background patterns -->
-        <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#39ff14_1px,transparent_1px)] bg-[size:30px_30px] z-0"></div>
-        
-        <div class="container mx-auto px-4 relative z-10">
-            <!-- Section heading -->
-            <h2 class="text-center font-cyber text-3xl md:text-4xl font-bold text-cyber-blue mb-16 tracking-wider">
-                <span class="inline-block relative">
-                    Get In Touch
-                    <span class="absolute -bottom-3 left-0 w-full h-1 bg-gradient-to-r from-cyber-blue to-cyber-green"></span>
-                </span>
-            </h2>
-            
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 max-w-6xl mx-auto">
-                <!-- Contact form -->
-                <div data-aos="fade-right">
-                    <div class="bg-black/40 backdrop-blur-md border border-cyber-blue/10 rounded-xl overflow-hidden p-6 md:p-8 h-full">
-                        <form id="contact-form" class="space-y-5">
-                            <!-- Name input -->
-                            <div class="relative">
-                                <input type="text" id="nameInput" placeholder=" " class="w-full bg-black/40 border border-cyber-blue/30 text-white/90 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-cyber-blue/50 focus:border-transparent peer placeholder-shown:pt-3 pt-6 transition-all duration-300">
-                                <label for="nameInput" class="absolute text-white/50 text-xs left-4 top-2 peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-base peer-placeholder-shown:-translate-y-1/2 peer-focus:top-2 peer-focus:text-xs font-cyber tracking-wide pointer-events-none transition-all duration-300">Your Name</label>
-                                <span class="absolute bottom-0 left-0 h-0.5 bg-gradient-to-r from-cyber-blue to-cyber-green w-0 group-focus-within:w-full transition-all duration-500"></span>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="glitch" data-text="Contact">Contact</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="btn-close"></span>
+                                <span class="btn-minimize"></span>
+                                <span class="btn-maximize"></span>
                             </div>
-                            
-                            <!-- Email input -->
-                            <div class="relative">
-                                <input type="email" id="emailInput" placeholder=" " class="w-full bg-black/40 border border-cyber-blue/30 text-white/90 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-cyber-blue/50 focus:border-transparent peer placeholder-shown:pt-3 pt-6 transition-all duration-300">
-                                <label for="emailInput" class="absolute text-white/50 text-xs left-4 top-2 peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-base peer-placeholder-shown:-translate-y-1/2 peer-focus:top-2 peer-focus:text-xs font-cyber tracking-wide pointer-events-none transition-all duration-300">Your Email</label>
-                            </div>
-                            
-                            <!-- Subject input -->
-                            <div class="relative">
-                                <input type="text" id="subjectInput" placeholder=" " class="w-full bg-black/40 border border-cyber-blue/30 text-white/90 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-cyber-blue/50 focus:border-transparent peer placeholder-shown:pt-3 pt-6 transition-all duration-300">
-                                <label for="subjectInput" class="absolute text-white/50 text-xs left-4 top-2 peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-base peer-placeholder-shown:-translate-y-1/2 peer-focus:top-2 peer-focus:text-xs font-cyber tracking-wide pointer-events-none transition-all duration-300">Subject</label>
-                            </div>
-                            
-                            <!-- Message input -->
-                            <div class="relative">
-                                <textarea id="messageInput" rows="4" placeholder=" " class="w-full bg-black/40 border border-cyber-blue/30 text-white/90 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-cyber-blue/50 focus:border-transparent peer placeholder-shown:pt-3 pt-6 transition-all duration-300"></textarea>
-                                <label for="messageInput" class="absolute text-white/50 text-xs left-4 top-2 peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-focus:top-2 peer-focus:text-xs font-cyber tracking-wide pointer-events-none transition-all duration-300">Your Message</label>
-                            </div>
-                            
-                            <!-- Submit button -->
-                            <button type="submit" class="group relative px-8 py-3 bg-transparent border-2 border-cyber-blue text-cyber-blue hover:text-cyber-dark font-cyber uppercase text-sm tracking-wider overflow-hidden transition-all duration-300 rounded-md shadow-md shadow-cyber-blue/20 hover:shadow-cyber-blue/40 mt-6">
-                                <span class="absolute inset-0 bg-cyber-blue w-0 group-hover:w-full transition-all duration-300"></span>
-                                <span class="relative z-10 flex items-center gap-2">
-                                    Send Message
-                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                    </svg>
-                                </span>
-                            </button>
-                        </form>
+                            <div class="terminal-title">contact.sh</div>
+                        </div>
+                        <div class="terminal-body">
+                            <p class="info-line"><span class="prompt">$</span> Let's connect and collaborate!</p>
+                            <p class="info-line"><span class="info-label">[*] Email:</span> ap312038@gmail.com</p>
+                            <p class="info-line"><span class="info-label">[*] GitHub:</span> github.com/Aditya-Prakash14</p>
+                            <p class="info-line"><span class="info-label">[*] LinkedIn:</span> linkedin.com/in/aditya-prakash-55b7b5183</p>
+                            <p class="info-line"><span class="info-label">[*] TryHackMe:</span> tryhackme.com/p/Hacksof2021</p>
+                            <p class="info-line"><span class="info-label">[*] Location:</span> Pune, India</p>
+                            <p class="info-line"><span class="info-label">[*] Status:</span> <span style="color: #9fef00;">Available for collaborations</span></p>
+                        </div>
                     </div>
                 </div>
-                
-                <!-- Contact info and terminal -->
-                <div data-aos="fade-left">
-                    <div class="bg-black/40 backdrop-blur-md border border-cyber-blue/10 rounded-xl overflow-hidden p-6 md:p-8 h-full">
-                        <!-- Contact items -->
-                        <div class="space-y-8 mb-8">
-                            <!-- Email -->
-                            <div class="flex items-start gap-4">
-                                <div class="rounded-full w-10 h-10 bg-cyber-blue/10 flex items-center justify-center text-cyber-blue border border-cyber-blue/30">
-                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h5 class="font-cyber text-cyber-blue mb-1">Email</h5>
-                                    <a href="mailto:ap312038@gmail.com" class="text-white/90 hover:text-cyber-blue transition-colors duration-300">ap312038@gmail.com</a>
-                                </div>
-                            </div>
-                            
-                            <!-- Location -->
-                            <div class="flex items-start gap-4">
-                                <div class="rounded-full w-10 h-10 bg-cyber-blue/10 flex items-center justify-center text-cyber-blue border border-cyber-blue/30">
-                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h5 class="font-cyber text-cyber-blue mb-1">Location</h5>
-                                    <p class="text-white/90">India</p>
-                                </div>
-                            </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="fas fa-user"></i> Name
+                            </label>
+                            <input type="text" id="name" name="name" required>
                         </div>
-                        
-                        <!-- Terminal window -->
-                        <div class="mb-8 group">
-                            <div class="bg-black/60 rounded-t-md py-2 px-4 flex items-center border-t border-l border-r border-cyber-blue/20 group-hover:border-cyber-blue/40 transition-all duration-300">
-                                <div class="flex gap-1.5">
-                                    <span class="w-3 h-3 rounded-full bg-red-500 opacity-70"></span>
-                                    <span class="w-3 h-3 rounded-full bg-yellow-500 opacity-70"></span>
-                                    <span class="w-3 h-3 rounded-full bg-green-500 opacity-70"></span>
-                                </div>
-                                <div class="flex-1 text-center text-xs font-cyber text-white/50">terminal</div>
-                            </div>
-                            <div class="bg-black/80 rounded-b-md p-4 border-b border-l border-r border-cyber-blue/20 group-hover:border-cyber-blue/40 transition-all duration-300 font-mono">
-                                <p class="mb-0 flex items-center gap-2">
-                                    <span class="text-cyber-green">$</span> 
-                                    <span class="text-white/90" id="terminal-text">connecting to Aditya...</span>
-                                    <span class="w-2.5 h-5 bg-cyber-blue/70 animate-pulse"></span>
-                                </p>
-                            </div>
+                        <div class="form-group">
+                            <label for="email">
+                                <i class="fas fa-envelope"></i> Email
+                            </label>
+                            <input type="email" id="email" name="email" required>
                         </div>
-                        
-                        <!-- Social links -->
-                        <div class="flex justify-center gap-4">
-                            <a href="#" class="social-link w-10 h-10 rounded-full bg-black/40 border border-cyber-blue/30 flex items-center justify-center text-white/70 hover:text-cyber-blue hover:border-cyber-blue/60 hover:shadow-md hover:shadow-cyber-blue/20 transition-all duration-300">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="social-link w-10 h-10 rounded-full bg-black/40 border border-cyber-blue/30 flex items-center justify-center text-white/70 hover:text-cyber-blue hover:border-cyber-blue/60 hover:shadow-md hover:shadow-cyber-blue/20 transition-all duration-300">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                            <a href="#" class="social-link w-10 h-10 rounded-full bg-black/40 border border-cyber-blue/30 flex items-center justify-center text-white/70 hover:text-cyber-blue hover:border-cyber-blue/60 hover:shadow-md hover:shadow-cyber-blue/20 transition-all duration-300">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social-link w-10 h-10 rounded-full bg-black/40 border border-cyber-blue/30 flex items-center justify-center text-white/70 hover:text-cyber-blue hover:border-cyber-blue/60 hover:shadow-md hover:shadow-cyber-blue/20 transition-all duration-300">
-                                <i class="fas fa-globe"></i>
-                            </a>
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i> Message
+                            </label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
-                    </div>
+                        <button type="submit" class="btn-htb">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="relative py-8 bg-black/80">
-        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#00f0ff_1px,transparent_1px)] bg-[size:20px_20px]"></div>
-        
-        <div class="container mx-auto px-4 relative z-10">
-            <div class="bg-black/50 backdrop-blur-md border border-cyber-blue/10 rounded-xl p-6 max-w-4xl mx-auto">
-                <div class="flex flex-col items-center justify-center">
-                    <!-- Logo -->
-                    <div class="mb-6">
-                        <span class="font-cyber text-3xl text-cyber-blue animate-pulse-glow">AP</span>
-                    </div>
-                    
-                    <!-- Navigation links -->
-                    <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-6">
-                        <a href="#home" class="text-white/80 hover:text-cyber-blue transition-colors duration-300 text-sm font-cyber">Home</a>
-                        <a href="#about" class="text-white/80 hover:text-cyber-blue transition-colors duration-300 text-sm font-cyber">About</a>
-                        <a href="#projects" class="text-white/80 hover:text-cyber-blue transition-colors duration-300 text-sm font-cyber">Projects</a>
-                        <a href="#blog" class="text-white/80 hover:text-cyber-blue transition-colors duration-300 text-sm font-cyber">Blog</a>
-                        <a href="#contact" class="text-white/80 hover:text-cyber-blue transition-colors duration-300 text-sm font-cyber">Contact</a>
-                    </div>
-                    
-                    <!-- Social links -->
-                    <div class="flex justify-center gap-4 mb-8">
-                        <a href="#" class="w-8 h-8 rounded-full bg-black/40 border border-cyber-blue/30 flex items-center justify-center text-white/70 hover:text-cyber-blue hover:border-cyber-blue/60 hover:shadow-md hover:shadow-cyber-blue/20 transition-all duration-300">
-                            <i class="fab fa-github text-sm"></i>
-                        </a>
-                        <a href="#" class="w-8 h-8 rounded-full bg-black/40 border border-cyber-blue/30 flex items-center justify-center text-white/70 hover:text-cyber-blue hover:border-cyber-blue/60 hover:shadow-md hover:shadow-cyber-blue/20 transition-all duration-300">
-                            <i class="fab fa-linkedin text-sm"></i>
-                        </a>
-                        <a href="#" class="w-8 h-8 rounded-full bg-black/40 border border-cyber-blue/30 flex items-center justify-center text-white/70 hover:text-cyber-blue hover:border-cyber-blue/60 hover:shadow-md hover:shadow-cyber-blue/20 transition-all duration-300">
-                            <i class="fab fa-twitter text-sm"></i>
-                        </a>
-                        <a href="#" class="w-8 h-8 rounded-full bg-black/40 border border-cyber-blue/30 flex items-center justify-center text-white/70 hover:text-cyber-blue hover:border-cyber-blue/60 hover:shadow-md hover:shadow-cyber-blue/20 transition-all duration-300">
-                            <i class="fas fa-globe text-sm"></i>
-                        </a>
-                    </div>
-                    
-                    <!-- Copyright -->
-                    <div class="text-center">
-                        <p class="text-white/70 mb-1">© 2025 Aditya Prakash. All Rights Reserved.</p>
-                        <p class="text-xs text-white/50">
-                            <span class="inline-flex items-center">
-                                &lt;/&gt; with 
-                                <i class="fas fa-heart text-red-500 mx-1 animate-pulse"></i>
-                                by 
-                                <span class="text-cyber-blue ml-1 font-cyber">Aditya</span>
-                            </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Aditya Prakash. All rights reserved.</p>
+            <p class="footer-subtitle">root@portfolio:~# <span class="typing">_</span></p>
         </div>
-        
-        <!-- Theme Toggler -->
-        <button class="theme-toggle fixed bottom-6 right-6 w-12 h-12 rounded-full bg-black/70 backdrop-blur-md border border-cyber-blue/30 flex items-center justify-center text-cyber-blue shadow-lg shadow-cyber-blue/20 z-50 hover:shadow-cyber-blue/40 transition-all duration-300">
-            <i class="fas fa-moon"></i>
-        </button>
     </footer>
 
-    <!-- Bootstrap JS Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <!-- AOS Animation Library -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
-    <!-- Custom JS -->
     <script src="script.js"></script>
 </body>
 </html>
