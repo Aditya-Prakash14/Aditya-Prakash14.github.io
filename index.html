@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- Critical CSS for LCP optimization -->
+    <style>
+        body{margin:0;background:#0a0e27;color:#9fef00;font-family:'Share Tech Mono',monospace}
+        .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:80px 20px 20px}
+        .terminal-output{color:#9fef00;margin:10px 0;font-size:1.1rem;line-height:1.6}
+        .hero-content{max-width:800px;width:100%}
+    </style>
+    
     <!-- Primary Meta Tags -->
     <title>Aditya Prakash - Cybersecurity Researcher | eJPT | Bug Bounty Hunter | Pune, India</title>
     <meta name="title" content="Aditya Prakash - Cybersecurity Researcher | eJPT Certified | Top 3% TryHackMe">
@@ -83,12 +91,17 @@
     }
     </script>
     
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="logo.png" as="image">
+    
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="logo.png">
     <link rel="apple-touch-icon" href="logo.png">
     
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
 </head>
 <body>
     <div class="matrix-bg"></div>
@@ -143,7 +156,7 @@
                         <span class="prompt">root@portfolio:~$</span> 
                         <span class="command">echo $MISSION</span>
                     </p>
-                    <p class="terminal-output typing-animation">Building security tools and learning platforms for a safer digital world...</p>
+                    <p class="terminal-output">Building security tools and learning platforms for a safer digital world...</p>
                     <p class="terminal-line cursor-blink">
                         <span class="prompt">root@portfolio:~$</span>
                         <span class="cursor">_</span>
@@ -170,7 +183,7 @@
                 <div class="about-image">
                     <div class="image-frame">
                         <div class="scan-line"></div>
-                        <img src="PHOTO-2025-10-21-16-33-05.jpg" alt="Profile">
+                        <img src="PHOTO-2025-10-21-16-33-05.jpg" alt="Profile" loading="lazy" width="400" height="400">
                         <div class="corner corner-tl"></div>
                         <div class="corner corner-tr"></div>
                         <div class="corner corner-bl"></div>
@@ -568,6 +581,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>

@@ -246,9 +246,8 @@ body {
 
 .typing-animation {
     overflow: hidden;
-    border-right: 2px solid var(--htb-green);
     white-space: nowrap;
-    animation: typing 3s steps(40) 1s 1 normal both, blink 0.75s step-end infinite;
+    /* Animation removed for LCP optimization - content shows immediately */
 }
 
 @keyframes typing {
