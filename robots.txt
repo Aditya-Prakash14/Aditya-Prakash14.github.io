@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://adityaprakash.dev/sitemap.xml
+Sitemap: https://aditya100xdev.me/sitemap.xml
 
 # Crawl-delay for politeness
 Crawl-delay: 1
